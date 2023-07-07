@@ -1,0 +1,95 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    border:5px solid black;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fffc30;
+  }
+  nav ul li a:hover {
+    color: #fa0d0d;
+  }
+  
+  /* Home section styles */
+  #home {
+    background-color: #0fd9f8;
+    padding: 50px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* About section styles */
+  #about {
+    background-color: #fff;
+    padding: 50px;
+    margin: 20px;
+  }
+  
+  /* Projects section styles */
+  #projects {
+    background-color: #f2f2f2;
+    padding: 50px;margin: 20px;
+  }
+  
+  .project {
+    margin-bottom: 20px;margin: 20px;
+  }
+  
+  /* Contact section styles */
+  #contact {
+    background-color: #fff;
+    padding: 50px;margin: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;margin: 20px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;margin: 20px;
+  }
+  
+  form button {
+    background-color: #fa41d8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;margin: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;margin: 20px;
+  }
